@@ -1,0 +1,27 @@
+S	R	G	M	P	D	N	S.	S.	N	D	P	M	G	R	S																																																								
+																																																																							
+S	R	S	G	S	M	S	P	S	D	S	N	S	S.	S.	N	S.	D	S.	P	S.	M	S.	G	S.	R	S.	S																																												
+																																																																							
+S	G	R	M	G	P	M	D	P	N	D	S.	S.	D	N	P	D	M	P	G	M	R	G	S																																																
+																																																																							
+S	M	R	P	G	D	M	N	P	S.	S.	P	N	M	D	G	P	R	M	S																																																				
+																																																																							
+S	P	R	D	G	N	M	S.	S.	M	N	G	D	R	P	S																																																								
+																																																																							
+S	D	R	N	G	S.	S.	G	N	R	D	S																																																												
+																																																																							
+S	N	R	S.	S.	R	N	S																																																																
+																																																																							
+S	R	G	R	G	M	G	M	P	M	P	D	P	D	N	D	N	S.	S.	N	D	N	D	P	D	P	M	P	M	G	M	G	R	G	R	S																																				
+																																																																							
+S	R	G	M	R	G	M	P	G	M	P	D	M	P	D	N	P	D	N	S.	S.	N	D	P	N	D	P	M	D	P	M	G	P	M	G	R	M	G	R	S																																
+																																																																							
+S	R	G	M	P	R	G	M	P	D	G	M	P	D	N	M	P	D	N	S.	S.	N	D	P	M	N	D	P	M	G	D	P	M	G	R	P	M	G	R	S																																
+																																																																							
+S	R	G	M	P	D	R	G	M	P	D	N	G	M	P	D	N	S.	S.	N	D	P	M	G	N	D	P	M	G	R	D	P	M	G	R	S																																				
+																																																																							
+S	R	G	M	P	D	N	R	G	M	P	D	N	S.	S.	N	D	P	M	G	R	N	D	P	M	G	R	S																																												
+																																																																							
+S	G	R	S	R	M	G	R	G	P	M	G	M	D	P	M	P	N	D	P	D	S.	N	D	D	N	S.	D	P	D	N	P	M	P	D	M	G	M	P	G	R	G	M	R	S	G	R	S																								
+																																																																							
+S	R	S	G	R	S	R	G	R	M	G	R	G	M	G	P	M	G	M	P	M	D	P	M	P	D	P	N	D	P	D	N	D	S.	N	D	D	N	S	D	N	D	P	D	N	P	D	P	M	P	D	M	P	M	G	M	P	G	M	G	R	G	M	R	G	R	S	R	G	S	R	S

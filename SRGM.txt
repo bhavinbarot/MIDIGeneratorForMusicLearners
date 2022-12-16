@@ -1,0 +1,262 @@
+S
+R
+G
+M
+P
+D
+N
+S.
+S.
+N
+D
+P
+M
+G
+R
+S
+.G	.P	S	.G		.P	S	G	.P		S	G	P	S
+.P	.N	R	.P		.N	R	P	.N		R	P	N	R
+.P	S	G	.P		S	G	P	S		G	P	S.	G
+.D	S	M	.D		S	M	D	S		M	D	S.	M
+S	G	P	S		G	P	S.	G		P	S.	G.	P
+S	M	D	S		M	D	S.	M		D	S.	M.	D
+R	P	N	R		P	N	R.	P		N	R.	P.	N
+G	P	S.	G		P	S.	G.	P		S.	G.	P.	S.
+
+
+
+S
+R
+G
+M'
+P
+D
+N
+S.
+S.
+N
+D
+P
+M'
+G
+R
+S
+.G	.P	S	.G		.P	S	G	.P		S	G	P	S
+.P	.N	R	.P		.N	R	P	.N		R	P	N	R
+.P	S	G	.P		S	G	P	S		G	P	S.	G
+.D	S	M'	.D		S	M'	D	S		M'	D	S.	M'
+S	G	P	S		G	P	S.	G		P	S.	G.	P
+S	M'	D	S		M'	D	S.	M'		D	S.	M'.	D
+R	P	N	R		P	N	R.	P		N	R.	P.	N
+G	P	S.	G		P	S.	G.	P		S.	G.	P.	S.
+
+
+
+S
+R
+G
+M
+P
+D
+n
+S.
+S.
+n
+D
+P
+M
+G
+R
+S
+.G	.P	S	.G		.P	S	G	.P		S	G	P	S
+.P	.n	R	.P		.n	R	P	.n		R	P	n	R
+.P	S	G	.P		S	G	P	S		G	P	S.	G
+.D	S	M	.D		S	M	D	S		M	D	S.	M
+S	G	P	S		G	P	S.	G		P	S.	G.	P
+S	M	D	S		M	D	S.	M		D	S.	M.	D
+R	P	n	R		P	n	R.	P		n	R.	P.	n
+G	P	S.	G		P	S.	G.	P		S.	G.	P.	S.
+
+
+S
+R
+g
+M
+P
+D
+n
+S.
+S.
+n
+D
+P
+M
+g
+R
+S
+.g	.P	S	.g		.P	S	g	.P		S	g	P	S
+.P	.n	R	.P		.n	R	P	.n		R	P	n	R
+.P	S	g	.P		S	g	P	S		g	P	S.	g
+.D	S	M	.D		S	M	D	S		M	D	S.	M
+S	g	P	S		g	P	S.	g		P	S.	g.	P
+S	M	D	S		M	D	S.	M		D	S.	M.	D
+R	P	n	R		P	n	R.	P		n	R.	P.	n
+g	P	S.	g		P	S.	g.	P		S.	g.	P.	S.
+
+
+S
+r
+G
+M
+P
+d
+N
+S.
+S.
+N
+d
+P
+M
+G
+r
+S
+.G	.P	S	.G		.P	S	G	.P		S	G	P	S
+.P	.N	r	.P		.N	r	P	.N		r	P	N	r
+.P	S	G	.P		S	G	P	S		G	P	S.	G
+.d	S	M	.d		S	M	d	S		M	d	S.	M
+S	G	P	S		G	P	S.	G		P	S.	G.	P
+S	M	d	S		M	d	S.	M		d	S.	M.	d
+r	P	N	r		P	N	r.	P		N	r.	P.	N
+G	P	S.	G		P	S.	G.	P		S.	G.	P.	S.
+
+
+S
+r
+G
+M'
+P
+D
+N
+S.
+S.
+N
+D
+P
+M'
+G
+r
+S
+.G	.P	S	.G		.P	S	G	.P		S	G	P	S
+.P	.N	r	.P		.N	r	P	.N		r	P	N	r
+.P	S	G	.P		S	G	P	S		G	P	S.	G
+.D	S	M'	.D		S	M'	D	S		M'	D	S.	M'
+S	G	P	S		G	P	S.	G		P	S.	G.	P
+S	M'	D	S		M'	D	S.	M'		D	S.	M'.	D
+r	P	N	r		P	N	r.	P		N	r.	P.	N
+G	P	S.	G		P	S.	G.	P		S.	G.	P.	S.
+
+
+S
+R
+g
+M
+P
+d
+n
+S.
+S.
+n
+d
+P
+M
+g
+R
+S
+.g	.P	S	.g		.P	S	g	.P		S	g	P	S
+.P	.n	R	.P		.n	R	P	.n		R	P	n	R
+.P	S	g	.P		S	g	P	S		g	P	S.	g
+.d	S	M'	.d		S	M'	d	S		M'	d	S.	M'
+S	g	P	S		g	P	S.	g		P	S.	g.	P
+S	M'	d	S		M'	d	S.	M'		d	S.	M'.	d
+R	P	n	R		P	n	R.	P		n	R.	P.	n
+g	P	S.	g		P	S.	g.	P		S.	g.	P.	S.
+
+
+S
+r
+g
+M
+P
+d
+n
+S.
+S.
+n
+d
+P
+M
+g
+r
+S
+.g	.P	S	.g		.P	S	g	.P		S	g	P	S
+.P	.n	r	.P		.n	r	P	.n		r	P	n	r
+.P	S	g	.P		S	g	P	S		g	P	S.	g
+.d	S	M'	.d		S	M'	d	S		M'	d	S.	M'
+S	g	P	S		g	P	S.	g		P	S.	g.	P
+S	M'	d	S		M'	d	S.	M'		d	S.	M'.	d
+r	P	n	r		P	n	r.	P		n	r.	P.	n
+g	P	S.	g		P	S.	g.	P		S.	g.	P.	S.
+
+
+S
+r
+G
+M'
+P
+d
+N
+S.
+S.
+N
+d
+P
+M'
+G
+r
+S
+.G	.P	S	.G		.P	S	G	.P		S	G	P	S
+.P	.N	r	.P		.N	r	P	.N		r	P	N	r
+.P	S	G	.P		S	G	P	S		G	P	S.	G
+.d	S	M'	.d		S	M'	d	S		M'	d	S.	M'
+S	G	P	S		G	P	S.	G		P	S.	G.	P
+S	M'	d	S		M'	d	S.	M'		d	S.	M'.	d
+r	P	N	r		P	N	r.	P		N	r.	P.	N
+G	P	S.	G		P	S.	G.	P		S.	G.	P.	S.
+
+
+S
+r
+g
+M'
+P
+d
+N
+S.
+S.
+N
+d
+P
+M'
+g
+r
+S
+.g	.P	S	.g		.P	S	g	.P		S	g	P	S
+.P	.N	r	.P		.N	r	P	.N		r	P	N	r
+.P	S	g	.P		S	g	P	S		g	P	S.	g
+.d	S	M'	.d		S	M'	d	S		M'	d	S.	M'
+S	g	P	S		g	P	S.	g		P	S.	g.	P
+S	M'	d	S		M'	d	S.	M'		d	S.	M'.	d
+r	P	N	r		P	N	r.	P		N	r.	P.	N
+g	P	S.	g		P	S.	g.	P		S.	g.	P.	S.
+
+S S S S S S S S
