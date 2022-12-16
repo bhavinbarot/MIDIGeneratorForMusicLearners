@@ -1,7 +1,9 @@
+#Import Libraries / Dependencies
 import random
 from MIDIHelper import *
 from midiutil.MidiFile import MIDIFile
 
+#Get Duration of a note
 def GetDurationByType(Note_Duration):
     if Note_Duration == 'Whole':
         return 4
@@ -10,6 +12,7 @@ def GetDurationByType(Note_Duration):
     elif Note_Duration == 'Quarter':
         return 1
 
+#Get Pitch from the Note
 def getPitchFromNote(note):
     if note ==  '.g':
         return 52
@@ -80,6 +83,7 @@ def getPitchFromNote(note):
     elif note ==  'S..':
         return 85
 
+#Get Note from the Pitch
 def getNoteFromPitch(pitch):
     if pitch == 52:
         return '.g'
@@ -150,6 +154,7 @@ def getNoteFromPitch(pitch):
     elif pitch == 85:
         return 'S..'
 
+#Different Thaats in Indian Music
 thaat_BILAWAL = [getPitchFromNote('S'), getPitchFromNote('R'),getPitchFromNote('G'),getPitchFromNote('M'),getPitchFromNote('P'),getPitchFromNote('D'),getPitchFromNote('N'),getPitchFromNote('S')]
 thaat_KALYAN = [getPitchFromNote('S'), getPitchFromNote('R'),getPitchFromNote('G'),getPitchFromNote('M'''),getPitchFromNote('P'),getPitchFromNote('D'),getPitchFromNote('N'),getPitchFromNote('S')]
 thaat_KHAMAJ = [getPitchFromNote('S'), getPitchFromNote('R'),getPitchFromNote('G'),getPitchFromNote('M'),getPitchFromNote('P'),getPitchFromNote('D'),getPitchFromNote('n'),getPitchFromNote('S')]
@@ -162,7 +167,7 @@ thaat_POORVI = [getPitchFromNote('S'), getPitchFromNote('r'),getPitchFromNote('G
 thaat_TODI = [getPitchFromNote('S'), getPitchFromNote('r'),getPitchFromNote('g'),getPitchFromNote('M'''),getPitchFromNote('P'),getPitchFromNote('d'),getPitchFromNote('N'),getPitchFromNote('S')]
 
 
-
+#Common helpers methods
 def isFirstNote(i):
     if i==1:
         #print('isFirstNote')
@@ -245,6 +250,9 @@ def getPitchFromNotePosition(i, thaat):
     else:
         return random.choice(thaat)
 
+
+    
+#Generates random Midi by given Thaat (specifc range of notes)    
 def GenerateRandomMidiByThaat(mf, track, channel, begintime, Note_Duration, tempo, filename, total_beats, thaat):
     time = begintime    # start at the beginning
     mf.addTrackName(track, time, "Sample Track")
@@ -289,7 +297,7 @@ def GenerateRandomMidiByThaat(mf, track, channel, begintime, Note_Duration, temp
 
 
 
-
+#Generate MIDI by manual inputs from a text file or copy from Excel file
 def GenerateMidiByNotesInput(mf, track, channel, begintime,Note_Duration, tempo,filename, SRGMFiles):
     time = begintime    # start at the beginning
     mf.addTrackName(track, time, "Sample Track")
@@ -319,7 +327,7 @@ def GenerateMidiByNotesInput(mf, track, channel, begintime,Note_Duration, tempo,
     with open(filename, 'wb') as outf:
         mf.writeFile(outf)
 
-
+#Merge all notes from the array of files
 def GetNumberOfNotesFromFile(SRGMFileName):
     with open(SRGMFileName) as f:
         lines = f.readlines()
