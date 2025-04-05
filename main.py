@@ -1,46 +1,95 @@
+import argparse
 from MIDIHelper import *
 from midiutil.MidiFile import MIDIFile
 import random
 
-#out_midi_filename = '00MIDI/Alankaar-12-13.mid'
-#TestMidiGeneration(out_midi_filename)
+def main():
+    parser = argparse.ArgumentParser(description='MIDI Generator For Music Learners')
 
+    parser.add_argument(
+        '--input',
+        nargs='+',
+        default=['Resources/FilesInput/input.txt'],
+        help='List of input note text files (default: Resources/FilesInput/input.txt)'
+    )
+    parser.add_argument(
+        '--output',
+        default='Resources/FilesOutput/output.mid',
+        help='Output MIDI filename (default: Resources/FilesOutput/output.mid)'
+    )
+    parser.add_argument(
+        '--random',
+        action='store_true',
+        help='Generate a random melody instead of using a note file'
+    )
+    parser.add_argument(
+        '--thaat',
+        type=str,
+        help='Thaat name for random melody (required if --random is set)'
+    )
+    parser.add_argument(
+        '--beats',
+        type=int,
+        default=40,
+        help='Number of beats for random melody generation (default: 40)'
+    )
+    parser.add_argument(
+        '--tempo',
+        type=int,
+        default=120,
+        help='Tempo in BPM (default: 120)'
+    )
 
-'''
-This method Supports
-1.  Free Form Text
-2. Multiple Files
-3. Copy from Excel
-'''
-input_Notes_Files = ['SRGM.txt']
-out_midi_filename = 'MIDIOutput/Khrv-Gazal4.mid'
+    args = parser.parse_args()
 
-GenerateMidiByNotesInput(out_midi_filename, input_Notes_Files,enableBeatsFlag = False, convertToAllThaats = False)
+    if args.random:
+        if not args.thaat:
+            print("Error: --thaat must be specified when using --random")
+            return
 
-#GetMeTheNotes('00MIDI/Untitled.xml', '00MIDI/Untitled_with_notes.xml')
+        thaat_map = {
+            "BILAWAL": thaat_BILAWAL,
+            "KALYAN": thaat_KALYAN,
+            "KHAMAJ": thaat_KHAMAJ,
+            "KAFI": thaat_KAFI,
+            "BHAIRAV": thaat_BHAIRAV,
+            "MARWA": thaat_MARWA,
+            "ASAWARI": thaat_ASAWARI,
+            "BHAIRAVI": thaat_BHAIRAVI,
+            "POORVI": thaat_POORVI,
+            "TODI": thaat_TODI
+        }
 
+        selected_thaat = thaat_map.get(args.thaat.upper())
 
+        if not selected_thaat:
+            print(f"Error: Invalid Thaat name '{args.thaat}'")
+            return
 
-'''
-This method Supports melody Generation using N number of notes in a specific Thaat
-'''
-#thaat_BILAWAL
-#thaat_KALYAN
-#thaat_KHAMAJ
-#thaat_KAFI
-#thaat_BHAIRAV
-#thaat_MARWA
-#thaat_ASAWARI
-#thaat_BHAIRAVI
-#thaat_POORVI
-#thaat_TODI
+        mf = MIDIFile(1)
+        track = 0
+        channel = 0
+        begintime = 0
 
-#total_beats =  640 #Prefer multiple of 8
-#out_midi_filename = '00MIDI/Kalyan - Shabada Madhur Bole.mid'
-#GenerateRandomMidiByThaat(mf, track, channel, begintime, 'Quarter', tempo, out_midi_filename,total_beats, thaat_BILAWAL)
+        GenerateRandomMidiByThaat(
+            mf,
+            track,
+            channel,
+            begintime,
+            'Quarter',
+            args.tempo,
+            args.output,
+            args.beats,
+            selected_thaat
+        )
 
+    else:
+        GenerateMidiByNotesInput(
+            args.output,
+            args.input,
+            enableBeatsFlag=False,
+            convertToAllThaats=False
+        )
 
-
-
-
-
+if __name__ == '__main__':
+    main()

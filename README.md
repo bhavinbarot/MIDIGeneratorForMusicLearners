@@ -110,6 +110,9 @@ python generate_midi.py notes.txt
 
 This will create a MIDI file with the corresponding Western pitches.
 
+![Generated MIDI](resources/images/SampleMIDI1.png)
+
+
 ---
 
 ### ✅ Set Tempo in your input:
