@@ -425,7 +425,7 @@ def getPitchFromNote(note):
         return 0
     elif note ==  'Dha':
         return 60
-    elif note ==  'Dhin':
+    elif note ==  'Dhin' or note ==  'Dhi':
         return 61
     elif note ==  'Ge':
         return 62
@@ -433,20 +433,14 @@ def getPitchFromNote(note):
         return 63
     elif note ==  'Kda':
         return 64
-    elif note ==  'Na' or note ==  'Ta':
+    elif note ==  'Na' or note ==  'Ta' or note ==  'TraKa':
         return 65
     elif note ==  'Re' or note ==  'Ra':
         return 66
     elif note ==  "Te":
         return 67
-    elif note ==  'Ti':
+    elif note ==  'Ti' or note ==  'Tin' or note ==  'Tik':
         return 68
-    elif note ==  'Tik':
-        return 69
-    elif note ==  'Tin':
-        return 70
-    elif note ==  'TraKa':
-        return 71
     else:
         print('Bad Note - ' , note)
         return 0

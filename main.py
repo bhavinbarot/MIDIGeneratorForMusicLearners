@@ -12,8 +12,8 @@ This method Supports
 2. Multiple Files
 3. Copy from Excel
 '''
-input_Notes_Files = ['00MIDI/SRGM.txt']
-out_midi_filename = '00MIDI/Kehrva.mid'
+input_Notes_Files = ['SRGM.txt']
+out_midi_filename = 'MIDIOutput/Khrv-Gazal4.mid'
 
 GenerateMidiByNotesInput(out_midi_filename, input_Notes_Files,enableBeatsFlag = False, convertToAllThaats = False)
 
