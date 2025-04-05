@@ -9,13 +9,13 @@ def main():
     parser.add_argument(
         '--input',
         nargs='+',
-        default=['Resources/FilesInput/input.txt'],
-        help='List of input note text files (default: Resources/FilesInput/input.txt)'
+        default=['resources/files_input/input.txt'],
+        help='List of input note text files (default: resources/files_input/input.txt)'
     )
     parser.add_argument(
         '--output',
-        default='Resources/FilesOutput/output.mid',
-        help='Output MIDI filename (default: Resources/FilesOutput/output.mid)'
+        default='resources/files_output/output.mid',
+        help='Output MIDI filename (default: resources/files_output/output.mid)'
     )
     parser.add_argument(
         '--random',
